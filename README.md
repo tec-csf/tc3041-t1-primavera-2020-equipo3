@@ -3,10 +3,9 @@
 ---
 
 ##### Integrantes:
-1. *[Poner aquí Nombre y Apellidos del integrante 1]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
-2. *[Poner aquí Nombre y Apellidos del integrante 2]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
-3. *[Poner aquí Nombre y Apellidos del integrante 3]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
-4. *[Poner aquí Nombre y Apellidos del integrante 4]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
+1. *Camila Rovirosa Ochoa* - *A01024192* - *CSF*
+2. *Luis Daniel Roa Gonzales* - *A01021960* - *CSF*
+3. *Albert Hassey Padierna* - *A01024639* - *CSF*
 
 ---
 ## 1. Aspectos generales
