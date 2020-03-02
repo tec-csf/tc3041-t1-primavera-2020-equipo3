@@ -59,10 +59,6 @@ IF NOT EXISTS `elecciones`.`Mesa`
 (4) NOT NULL,
   `Colegio_noCorrelativos` INT NOT NULL,
   `Eleccion_idEleccion` INT NOT NULL,
-  `periodoInicio` TIMESTAMP
-(6) NULL,
-  `periodoFinal` TIMESTAMP
-(6) NULL,
   PRIMARY KEY
 (`idMesa`),
   INDEX `fk_Mesa_Colegio_idx`
