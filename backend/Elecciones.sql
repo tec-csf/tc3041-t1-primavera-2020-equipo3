@@ -27,7 +27,10 @@ CREATE TABLE
 IF NOT EXISTS `Elecciones`.`Colegio`
 (
   `noCorrelativos` INT NOT NULL,
-  `electores` INT NULL,
+  `fechaInicio` TIMESTAMP
+(6) NOT NULL,
+  `fechaFin` TIMESTAMP
+(6) NOT NULL,
   PRIMARY KEY
 (`noCorrelativos`))
 ENGINE = InnoDB;
@@ -148,7 +151,7 @@ ENGINE = InnoDB;
 -- Table `Elecciones`.`Municipales`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Municipal`
+IF NOT EXISTS `Elecciones`.`Municipales`
 (
   `Eleccion_idEleccion` INT NOT NULL,
   `Partido_siglas` VARCHAR
@@ -185,7 +188,7 @@ ENGINE = InnoDB;
 -- Table `Elecciones`.`Federales`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Federal`
+IF NOT EXISTS `Elecciones`.`Federales`
 (
   `Eleccion_idEleccion` INT NOT NULL,
   `Partido_siglas` VARCHAR
@@ -370,9 +373,9 @@ IF NOT EXISTS `Elecciones`.`Periodo`
 (30) NOT NULL,
   `Eleccion_idEleccion` INT NOT NULL,
   `periodoInicio` TIMESTAMP
-(6) NULL,
+(12) NULL,
   `periodoFinal` TIMESTAMP
-(6) NULL,
+(12) NULL,
   PRIMARY KEY
 (`Votante_idVotante`, `Eleccion_idEleccion`),
   INDEX `fk_Votante_has_Eleccion_Eleccion1_idx`
