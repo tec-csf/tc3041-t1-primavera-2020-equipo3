@@ -8,39 +8,40 @@ SET @OLD_SQL_MODE=@@SQL_MODE
 , SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema Elecciones
+-- Schema elecciones
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema Elecciones
+-- Schema elecciones
 -- -----------------------------------------------------
 CREATE SCHEMA
-IF NOT EXISTS `Elecciones` DEFAULT CHARACTER
+IF NOT EXISTS `elecciones` DEFAULT CHARACTER
 SET utf8 ;
-USE `Elecciones`
+USE `elecciones`
 ;
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Colegio`
+-- Table `elecciones`.`Colegio`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Colegio`
+IF NOT EXISTS `elecciones`.`Colegio`
 (
   `noCorrelativos` INT NOT NULL,
   `fechaInicio` TIMESTAMP
 (6) NOT NULL,
   `fechaFin` TIMESTAMP
 (6) NOT NULL,
+  `cantElectores` INT NULL,
   PRIMARY KEY
 (`noCorrelativos`))
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Eleccion`
+-- Table `elecciones`.`Eleccion`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Eleccion`
+IF NOT EXISTS `elecciones`.`Eleccion`
 (
   `idEleccion` INT NOT NULL,
   PRIMARY KEY
@@ -49,16 +50,19 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Mesa`
+-- Table `elecciones`.`Mesa`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Mesa`
+IF NOT EXISTS `elecciones`.`Mesa`
 (
   `idMesa` CHAR
-(1) NOT NULL,
-  `cantElectores` INT NULL,
+(4) NOT NULL,
   `Colegio_noCorrelativos` INT NOT NULL,
   `Eleccion_idEleccion` INT NOT NULL,
+  `periodoInicio` TIMESTAMP
+(6) NULL,
+  `periodoFinal` TIMESTAMP
+(6) NULL,
   PRIMARY KEY
 (`idMesa`),
   INDEX `fk_Mesa_Colegio_idx`
@@ -68,7 +72,7 @@ IF NOT EXISTS `Elecciones`.`Mesa`
   CONSTRAINT `fk_Mesa_Colegio`
     FOREIGN KEY
 (`Colegio_noCorrelativos`)
-    REFERENCES `Elecciones`.`Colegio`
+    REFERENCES `elecciones`.`Colegio`
 (`noCorrelativos`)
     ON
 DELETE NO ACTION
@@ -77,7 +81,7 @@ UPDATE NO ACTION,
   CONSTRAINT `fk_Mesa_Eleccion1`
     FOREIGN KEY
 (`Eleccion_idEleccion`)
-    REFERENCES `Elecciones`.`Eleccion`
+    REFERENCES `elecciones`.`Eleccion`
 (`idEleccion`)
     ON
 DELETE NO ACTION
@@ -87,10 +91,10 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Votante`
+-- Table `elecciones`.`Votante`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Votante`
+IF NOT EXISTS `elecciones`.`Votante`
 (
   `idVotante` VARCHAR
 (30) NOT NULL,
@@ -110,7 +114,7 @@ IF NOT EXISTS `Elecciones`.`Votante`
   CONSTRAINT `fk_Votante_Mesa1`
     FOREIGN KEY
 (`Mesa_idMesa`)
-    REFERENCES `Elecciones`.`Mesa`
+    REFERENCES `elecciones`.`Mesa`
 (`idMesa`)
     ON
 DELETE NO ACTION
@@ -120,10 +124,10 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Partido`
+-- Table `elecciones`.`Partido`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Partido`
+IF NOT EXISTS `elecciones`.`Partido`
 (
   `siglas` VARCHAR
 (15) NOT NULL,
@@ -138,7 +142,7 @@ IF NOT EXISTS `Elecciones`.`Partido`
   CONSTRAINT `fk_Partido_Votante1`
     FOREIGN KEY
 (`presidente_idVotante`)
-    REFERENCES `Elecciones`.`Votante`
+    REFERENCES `elecciones`.`Votante`
 (`idVotante`)
     ON
 DELETE NO ACTION
@@ -148,10 +152,10 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Municipales`
+-- Table `elecciones`.`Municipales`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Municipales`
+IF NOT EXISTS `elecciones`.`Municipales`
 (
   `Eleccion_idEleccion` INT NOT NULL,
   `Partido_siglas` VARCHAR
@@ -166,7 +170,7 @@ IF NOT EXISTS `Elecciones`.`Municipales`
   CONSTRAINT `fk_Eleccion_has_Partido_Eleccion1`
     FOREIGN KEY
 (`Eleccion_idEleccion`)
-    REFERENCES `Elecciones`.`Eleccion`
+    REFERENCES `elecciones`.`Eleccion`
 (`idEleccion`)
     ON
 DELETE NO ACTION
@@ -175,7 +179,7 @@ UPDATE NO ACTION,
   CONSTRAINT `fk_Eleccion_has_Partido_Partido1`
     FOREIGN KEY
 (`Partido_siglas`)
-    REFERENCES `Elecciones`.`Partido`
+    REFERENCES `elecciones`.`Partido`
 (`siglas`)
     ON
 DELETE NO ACTION
@@ -185,10 +189,10 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Federales`
+-- Table `elecciones`.`Federales`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Federales`
+IF NOT EXISTS `elecciones`.`Federales`
 (
   `Eleccion_idEleccion` INT NOT NULL,
   `Partido_siglas` VARCHAR
@@ -203,7 +207,7 @@ IF NOT EXISTS `Elecciones`.`Federales`
   CONSTRAINT `fk_Eleccion_has_Partido_Eleccion2`
     FOREIGN KEY
 (`Eleccion_idEleccion`)
-    REFERENCES `Elecciones`.`Eleccion`
+    REFERENCES `elecciones`.`Eleccion`
 (`idEleccion`)
     ON
 DELETE NO ACTION
@@ -212,7 +216,7 @@ UPDATE NO ACTION,
   CONSTRAINT `fk_Eleccion_has_Partido_Partido2`
     FOREIGN KEY
 (`Partido_siglas`)
-    REFERENCES `Elecciones`.`Partido`
+    REFERENCES `elecciones`.`Partido`
 (`siglas`)
     ON
 DELETE NO ACTION
@@ -222,10 +226,10 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`ListaNominal`
+-- Table `elecciones`.`ListaNominal`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`ListaNominal`
+IF NOT EXISTS `elecciones`.`ListaNominal`
 (
   `Votante_idVotante` VARCHAR
 (30) NOT NULL,
@@ -243,7 +247,7 @@ IF NOT EXISTS `Elecciones`.`ListaNominal`
   CONSTRAINT `fk_Votante_has_Partido_Votante1`
     FOREIGN KEY
 (`Votante_idVotante`)
-    REFERENCES `Elecciones`.`Votante`
+    REFERENCES `elecciones`.`Votante`
 (`idVotante`)
     ON
 DELETE NO ACTION
@@ -252,7 +256,7 @@ UPDATE NO ACTION,
   CONSTRAINT `fk_Votante_has_Partido_Partido1`
     FOREIGN KEY
 (`Partido_siglas`)
-    REFERENCES `Elecciones`.`Partido`
+    REFERENCES `elecciones`.`Partido`
 (`siglas`)
     ON
 DELETE NO ACTION
@@ -262,10 +266,10 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Miembro`
+-- Table `elecciones`.`Miembro`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Miembro`
+IF NOT EXISTS `elecciones`.`Miembro`
 (
   `idMiembro` INT NOT NULL,
   `tipoMiembro` TINYINT
@@ -279,7 +283,7 @@ IF NOT EXISTS `Elecciones`.`Miembro`
   CONSTRAINT `fk_Miembro_Votante1`
     FOREIGN KEY
 (`Votante_idVotante`)
-    REFERENCES `Elecciones`.`Votante`
+    REFERENCES `elecciones`.`Votante`
 (`idVotante`)
     ON
 DELETE NO ACTION
@@ -289,10 +293,10 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Suplente`
+-- Table `elecciones`.`Suplente`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Suplente`
+IF NOT EXISTS `elecciones`.`Suplente`
 (
   `idSuplente` INT NOT NULL,
   `Miembro_idMiembro` INT NOT NULL,
@@ -307,7 +311,7 @@ IF NOT EXISTS `Elecciones`.`Suplente`
   CONSTRAINT `fk_Suplente_Miembro1`
     FOREIGN KEY
 (`Miembro_idMiembro`)
-    REFERENCES `Elecciones`.`Miembro`
+    REFERENCES `elecciones`.`Miembro`
 (`idMiembro`)
     ON
 DELETE NO ACTION
@@ -316,7 +320,7 @@ UPDATE NO ACTION,
   CONSTRAINT `fk_Suplente_Votante1`
     FOREIGN KEY
 (`Votante_idVotante`)
-    REFERENCES `Elecciones`.`Votante`
+    REFERENCES `elecciones`.`Votante`
 (`idVotante`)
     ON
 DELETE NO ACTION
@@ -326,10 +330,10 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `Elecciones`.`Apoderado`
+-- Table `elecciones`.`Apoderado`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Apoderado`
+IF NOT EXISTS `elecciones`.`Apoderado`
 (
   `idApoderado` INT NOT NULL,
   `Partido_siglas` VARCHAR
@@ -345,7 +349,7 @@ IF NOT EXISTS `Elecciones`.`Apoderado`
   CONSTRAINT `fk_Apoderado_Partido1`
     FOREIGN KEY
 (`Partido_siglas`)
-    REFERENCES `Elecciones`.`Partido`
+    REFERENCES `elecciones`.`Partido`
 (`siglas`)
     ON
 DELETE NO ACTION
@@ -354,48 +358,8 @@ UPDATE NO ACTION,
   CONSTRAINT `fk_Apoderado_Votante1`
     FOREIGN KEY
 (`Votante_idVotante`)
-    REFERENCES `Elecciones`.`Votante`
+    REFERENCES `elecciones`.`Votante`
 (`idVotante`)
-    ON
-DELETE NO ACTION
-    ON
-UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `Elecciones`.`Periodo`
--- -----------------------------------------------------
-CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Periodo`
-(
-  `Votante_idVotante` VARCHAR
-(30) NOT NULL,
-  `Eleccion_idEleccion` INT NOT NULL,
-  `periodoInicio` TIMESTAMP
-(12) NULL,
-  `periodoFinal` TIMESTAMP
-(12) NULL,
-  PRIMARY KEY
-(`Votante_idVotante`, `Eleccion_idEleccion`),
-  INDEX `fk_Votante_has_Eleccion_Eleccion1_idx`
-(`Eleccion_idEleccion` ASC) VISIBLE,
-  INDEX `fk_Votante_has_Eleccion_Votante1_idx`
-(`Votante_idVotante` ASC) VISIBLE,
-  CONSTRAINT `fk_Votante_has_Eleccion_Votante1`
-    FOREIGN KEY
-(`Votante_idVotante`)
-    REFERENCES `Elecciones`.`Votante`
-(`idVotante`)
-    ON
-DELETE NO ACTION
-    ON
-UPDATE NO ACTION,
-  CONSTRAINT `fk_Votante_has_Eleccion_Eleccion1`
-    FOREIGN KEY
-(`Eleccion_idEleccion`)
-    REFERENCES `Elecciones`.`Eleccion`
-(`idEleccion`)
     ON
 DELETE NO ACTION
     ON
