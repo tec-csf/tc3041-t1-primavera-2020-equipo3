@@ -370,9 +370,9 @@ IF NOT EXISTS `Elecciones`.`Periodo`
 (30) NOT NULL,
   `Eleccion_idEleccion` INT NOT NULL,
   `periodoInicio` TIMESTAMP
-(12) NULL,
+(6) NULL,
   `periodoFinal` TIMESTAMP
-(12) NULL,
+(6) NULL,
   PRIMARY KEY
 (`Votante_idVotante`, `Eleccion_idEleccion`),
   INDEX `fk_Votante_has_Eleccion_Eleccion1_idx`
