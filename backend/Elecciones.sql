@@ -55,8 +55,9 @@ ENGINE = InnoDB;
 CREATE TABLE
 IF NOT EXISTS `elecciones`.`Mesa`
 (
-  `idMesa` CHAR
-(4) NOT NULL,
+  `idMesa` INT NOT NULL,
+  `letraMesa` VARCHAR
+(1) NOT NULL,
   `Colegio_noCorrelativos` INT NOT NULL,
   `Eleccion_idEleccion` INT NOT NULL,
   PRIMARY KEY
