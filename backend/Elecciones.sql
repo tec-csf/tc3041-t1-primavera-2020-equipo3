@@ -148,7 +148,7 @@ ENGINE = InnoDB;
 -- Table `Elecciones`.`Municipales`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Municipales`
+IF NOT EXISTS `Elecciones`.`Municipal`
 (
   `Eleccion_idEleccion` INT NOT NULL,
   `Partido_siglas` VARCHAR
@@ -185,7 +185,7 @@ ENGINE = InnoDB;
 -- Table `Elecciones`.`Federales`
 -- -----------------------------------------------------
 CREATE TABLE
-IF NOT EXISTS `Elecciones`.`Federales`
+IF NOT EXISTS `Elecciones`.`Federal`
 (
   `Eleccion_idEleccion` INT NOT NULL,
   `Partido_siglas` VARCHAR
