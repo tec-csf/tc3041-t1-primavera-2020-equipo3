@@ -17,3 +17,166 @@ noCorrelativos`,`fechaInicio
 ----------------------------------------------------------------
 -------------------------Mesas----------------------------------
 ----------------------------------------------------------------
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(1,"A",4,"64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(2,"B",5,"66");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(3,"C",4,"68");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(4,"D",6,"70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(5,"A",1,"64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(6,"B",9,"66");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(7,"C",7,"68");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(8,"D",3,"70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(9,"A",3,"64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(10,"B",8,"66");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(11,"A","9","66");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(12,"A","1","70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(13,"B","4","68");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(14,"B","7","70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(15,"C","10","64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(16,"C","4","68");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(17,"D","1","64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(18,"D","5","66");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(19,"A","4","66");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(20,"A","10","68");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(21,"B","6","68");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(22,"B","4","66");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(23,"C","8","66");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(24,"C","7","70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(25,"D","3","64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(26,"D","1","70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(27,"A","4","70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(28,"A","10","64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(29,"B","1","68");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(30,"B","2","64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(31,"C","7","68");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(32,"C","2","70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(33,"D","6","66");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(34,"D","3","68");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(35,"A","8","64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(36,"A","7","64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(37,"B","1","64");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(38,"B","10","70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(39,"C","2","70");
+INSERT INTO `mesa` (`
+idMesa`,`letraMesa
+`,`Colegio_noCorrelativos`,`Eleccion_idEleccion`) VALUES
+(40,"C","9","64");
+---------------------------------------------------------------
+------------------------ELECCION-------------------------------
+---------------------------------------------------------------
