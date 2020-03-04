@@ -392,6 +392,107 @@ INSERT INTO `votante` (`
 idVotante`,`nombre
 `,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES
 ("XCF07KKX7LU","Serena","7746 Tincidunt, Rd.",0,"2019-05-31 13:42:31",10);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("RXL51WTU0FY","September","6392 Enim. Avenue",0,"2019-06-05 21:22:48",13);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("WJA79ZOI7IF","Chaim","464-4829 Montes, Street",1,"2021-01-28 06:16:25",38);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("JMZ72QVD0AF","Samson","336 Ac, St.",0,"2019-07-11 12:04:06",7);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("ZSZ82NIN0ZX","Shoshana","P.O. Box 327, 4106 Nunc Road",1,"2020-11-01 00:54:00",34);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("IYG47VBD8MJ","Graiden","P.O. Box 165, 917 Commodo Rd.",0,"2020-04-13 23:08:18",13);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("QMR95GDS0LZ","Zelenia","Ap #805-5221 Tortor Ave",0,"2020-05-21 20:48:20",19);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("ERA19WQU9BI","Zia","Ap #186-9935 Amet Street",0,"2020-07-18 23:15:54",38);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("TVY52JMF6SQ","Colette","Ap #677-7764 Integer Avenue",1,"2019-09-23 12:29:15",6);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("ELO79COW1SL","Leilani","Ap #442-3182 Donec Rd.",0,"2021-01-17 08:29:33",27);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("UQP38COY3AX","Noelle","454-668 In Avenue",0,"2020-03-02 21:01:40",1);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("DQG78RSD9HH","Andrew","Ap #330-8733 Tortor Rd.",1,"2019-04-03 04:45:26",24);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("XQE26GZZ2HK","Sebastian","P.O. Box 295, 6956 Pellentesque St.",1,"2019-06-04 20:53:26",7);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("UPN17OEF9LI","MacKenzie","Ap #339-3874 Pharetra. Rd.",1,"2019-06-03 08:23:12",29);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("ZMS85QEK7AI","Carissa","417-4514 Non Street",1,"2019-07-04 12:18:54",24);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("PVX64RHB7GO","Sydney","Ap #278-9505 Sed Rd.",0,"2019-09-04 08:04:27",25);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("CXV77WYD6XS","Jenna","7639 Sodales Avenue",0,"2020-10-15 05:56:20",26);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("BSR13NPB0OR","Lucas","Ap #638-8912 Et Street",0,"2020-01-27 09:05:56",5);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("JSX28JCN5IX","Walker","138-1171 Convallis Road",0,"2020-04-01 21:21:20",35);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("ULJ50YFB3RI","Richard","3552 Cubilia St.",0,"2021-03-02 22:42:22",9);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("XKY29USH5MI","Sharon","7642 Pellentesque Avenue",0,"2020-04-07 07:55:02",31);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("EJB68OII4XI","Amethyst","Ap #235-3477 Eu, Avenue",1,"2019-07-11 18:27:14",25);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("PEQ91ZBP4UZ","Elizabeth","4563 Orci. St.",0,"2020-09-06 21:52:02",18);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("IVS29SQV8SG","TaShya","778-1778 Eu Street",1,"2020-03-21 20:46:21",37);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("BSB96PQX5DQ","Cameron","185-9163 Lorem, Av.",0,"2019-10-17 19:50:00",4);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("PNF71WNC4IZ","Whoopi","P.O. Box 804, 4165 Egestas St.",0,"2020-06-20 09:52:57",1);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("GTV78GXZ3WP","Jacob","882-3864 Etiam Rd.",0,"2019-12-26 20:55:50",26);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("YEX81DAR8BU","Orla","9361 Volutpat St.",0,"2020-03-28 07:24:38",16);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("FKC89HJU9JK","Keane","Ap #386-3392 Cubilia Ave",1,"2020-11-26 16:22:26",12);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("UJP58EPT2XP","Lyle","Ap #132-9745 Vitae Street",1,"2019-07-05 06:26:54",22);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("LCB19HGF3LS","Shafira","Ap #326-9433 Cras Rd.",1,"2019-06-16 22:28:02",9);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("ZTZ90HET1ED","Clark","Ap #746-8971 Conubia St.",0,"2019-08-03 21:03:40",28);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("HCL42REI2GH","Maia","P.O. Box 363, 9877 Tristique Rd.",1,"2020-02-15 21:07:58",26);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("IAQ39TIN1LA","Merrill","683-6579 Neque. Road",0,"2020-11-20 18:44:24",21);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("CCF48SCF8RB","Jared","P.O. Box 893, 1232 Libero. Rd.",1,"2019-09-04 01:42:28",27);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("AWU23SVA8MQ","Jakeem","2029 Et St.",0,"2020-12-11 02:49:06",10);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("IOJ02PTM9LK","Laith","Ap #140-9426 Egestas Ave",0,"2019-06-28 16:53:23",16);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("MYZ40VDW0FD","Hiram","651-9982 Tellus Avenue",0,"2020-06-15 23:04:45",15);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("KGP19SKE9MA","Jackson","Ap #801-9275 Quisque Rd.",0,"2019-06-16 16:08:48",22);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("CKN25SNY7UG","Addison","688-4083 Nec, St.",1,"2020-11-05 19:33:29",39);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("WNO35LAF4JL","Halla","Ap #519-8464 Eget Rd.",0,"2021-02-20 18:46:29",36);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("FLL11FTT8UG","Rebekah","5271 Eu St.",0,"2020-01-09 11:20:01",10);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("SAX68KQV8NV","Indira","9931 Urna Av.",0,"2020-02-17 18:17:46",8);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("LFK34AME5NL","Xavier","8072 Bibendum. Rd.",0,"2019-08-04 12:30:49",22);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("EBP13MIF6NO","Eric","4613 Donec Av.",0,"2020-04-27 14:20:50",38);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("PLA05TJJ4CL","Bethany","Ap #266-1329 Neque Road",0,"2021-01-05 16:37:24",14);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("WQB78PKS4DO","Summer","P.O. Box 671, 1129 In Ave",0,"2020-02-21 16:47:47",32);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("VBF33PIU8QF","Sage","P.O. Box 285, 8900 Velit. Road",1,"2019-08-15 04:20:39",32);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("JJD19LIW9VK","Troy","Ap #325-7368 Ligula. Av.",1,"2020-06-12 04:15:38",17);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("ZOZ59VXN1RO","Nola","Ap #797-1379 Orci, Avenue",0,"2021-01-25 22:16:43",19);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("DOR89JSI0XX","Dorothy","516-6805 Sed Rd.",1,"2019-04-10 08:38:22",30);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("PXG81IZZ3NL","Quinn","P.O. Box 217, 6954 Urna. St.",1,"2020-05-05 17:43:44",22);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("LUK71MZT5AO","Wayne","P.O. Box 922, 6592 Porttitor Av.",1,"2020-01-22 10:32:58",4);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("SHM50EZR3MM","Meghan","Ap #289-2181 Ligula. St.",0,"2020-10-10 09:35:20",14);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("MOQ93JYX1CC","Ifeoma","251-3895 Purus St.",1,"2020-02-25 09:24:10",1);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("TXS65PUC6PH","Charlotte","202-9772 Consectetuer Road",0,"2020-08-15 22:25:09",28);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("RWZ65DDI6KT","Oleg","9207 Iaculis Road",1,"2020-06-15 18:22:01",9);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("TDR53ION8EK","Evangeline","P.O. Box 636, 2980 Et, St.",1,"2020-05-28 11:46:13",7);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("TGP22SLH7EY","Pascale","P.O. Box 831, 5581 Senectus St.",0,"2020-02-08 10:43:56",15);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("JEG62VOI4LZ","Todd","P.O. Box 141, 7088 Nunc St.",0,"2019-05-12 10:46:05",37);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("SLI35YCQ1OT","Skyler","3513 Consectetuer Av.",1,"2019-03-06 08:41:28",15);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("RFB97MTL9RX","Grace","Ap #605-3176 Enim. St.",1,"2019-06-04 01:38:40",6);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("EVB15YBC3NS","Shafira","695 Sagittis Avenue",1,"2019-12-13 03:45:58",22);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("WEB24LUO6IT","Kiara","602-5787 Dictum Av.",1,"2019-12-14 05:16:28",19);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("CJG72KON6QR","Garrett","Ap #128-7404 Dignissim Rd.",0,"2020-01-06 11:03:38",23);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("CVL08PYE7VB","Ryan","5174 Quam Street",0,"2020-12-28 10:19:27",7);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("FIX69CVD6LJ","Lenore","Ap #229-6565 Neque St.",1,"2019-03-11 17:24:23",10);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("NUZ46RSG5WQ","Inga","Ap #729-6729 Gravida St.",1,"2020-07-13 18:13:58",3);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("NUE81AUI4OS","Veda","P.O. Box 559, 4398 Mattis Ave",1,"2020-05-05 14:34:54",24);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("BCF25UIC4DB","Henry","P.O. Box 913, 1131 Ipsum Street",0,"2019-11-09 15:09:33",9);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("MJM91XDW3JM","Asher","P.O. Box 732, 8315 Et St.",1,"2020-01-07 01:44:59",6);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("OTT31BKJ2VH","Kylynn","P.O. Box 496, 7106 Neque St.",0,"2021-01-08 20:18:52",23);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("IHT82HFT2GN","Oleg","Ap #301-1792 Tempus Rd.",1,"2020-08-31 19:05:37",39);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("RWO51DIW1YF","Kameko","520-8647 Pede Rd.",1,"2019-10-02 20:49:54",33);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("SVW54WFH4AV","MacKensie","194-7445 Amet Avenue",1,"2019-11-29 03:58:02",36);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("UPS82YPH6AC","Allegra","839-7603 Faucibus Rd.",1,"2020-10-27 01:21:10",8);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("QNR88KYP6UJ","Imogene","9327 Metus Rd.",0,"2020-07-27 05:30:12",23);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("XIJ63DAR2AN","Brielle","Ap #849-8434 Non Street",1,"2020-06-09 18:58:22",34);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("KJG18BCX3WM","Wallace","8299 Euismod St.",0,"2020-04-13 08:27:05",39);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("OAH87ESR2FV","Chaim","863-2221 Dui, St.",0,"2020-05-25 08:26:34",36);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("YND29EKA6VL","Gretchen","909-4925 A, Street",1,"2020-10-24 04:14:22",10);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("MKE91ZSY3RU","Owen","P.O. Box 754, 6053 Dui Av.",1,"2019-06-05 13:13:32",19);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("CPB87EQM8SJ","Phillip","3897 Morbi Rd.",1,"2020-11-20 03:18:33",8);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("EHL05SVL8GK","Yvette","502-940 Mus. Rd.",0,"2020-06-22 05:54:32",37);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("TFQ48HCE9MO","Vivien","P.O. Box 893, 8784 In St.",1,"2020-05-28 12:59:19",27);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("BZT38XWH1YM","Phelan","7588 Ultrices Avenue",1,"2021-02-25 19:52:03",3);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("MMH78NRI8BK","Alice","8361 Purus. Ave",0,"2019-07-30 14:36:07",34);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("XIA96MLD1TU","Shaine","5777 Bibendum Ave",1,"2019-03-20 08:36:55",15);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("LOC33CMM7OM","Echo","707-3972 Duis Street",1,"2019-04-26 08:17:36",20);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("YKM35UDM1IM","Kennan","4042 Scelerisque St.",0,"2021-01-19 21:57:10",10);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("WMH23UFR3CW","Yoshi","654-9762 Nullam Ave",0,"2020-09-07 13:34:41",6);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("HAT26XEB3ZG","Uriah","5028 Lectus, Rd.",0,"2019-04-14 21:13:37",7);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("RYU96NNB1SZ","Nissim","866-6369 Nec Av.",0,"2019-05-31 05:21:04",32);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("JWJ25ZHC8MY","Connor","9583 Eget Av.",1,"2020-05-26 11:45:42",3);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("KEO24KHR8VE","Gavin","Ap #358-6808 Ultricies Street",1,"2020-02-10 00:24:08",31);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("CBT72JFL1CL","Kristen","Ap #143-1597 Orci Street",0,"2019-09-12 12:41:04",38);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("IYU11EUD6UG","Kyle","Ap #830-610 Varius Ave",0,"2020-02-05 05:39:54",35);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("AZX47XKS3KT","Derek","P.O. Box 322, 6553 Ac, Av.",0,"2019-10-22 18:08:21",9);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("PMA97JBN5CZ","Xyla","9632 Ipsum Street",1,"2020-01-11 02:06:52",17);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("YXT46HQN4IR","Slade","P.O. Box 696, 2529 Scelerisque Rd.",1,"2020-08-23 13:36:39",6);
+INSERT INTO `votante` (`idVotante`,`nombre`,`direccion`,`mexicano`,`fechaNacimiento`,`mesa_idMesa`) VALUES ("BBD47JBV1NV","Damian","111-8229 Iaculis Rd.",1,"2020-12-21 04:42:58",23);
+
 ----------------------------------------------------------------
 ------------------------Partido---------------------------------
 ----------------------------------------------------------------
@@ -497,3 +598,59 @@ INSERT INTO `federales` (`Eleccion_idEleccion`,`Partido_siglas`,`noVotos`) VALUE
 INSERT INTO `federales` (`Eleccion_idEleccion`,`Partido_siglas`,`noVotos`) VALUES (70,"MORENA",30);
 INSERT INTO `federales` (`Eleccion_idEleccion`,`Partido_siglas`,`noVotos`) VALUES (70,"QUADRI",22);
 INSERT INTO `federales` (`Eleccion_idEleccion`,`Partido_siglas`,`noVotos`) VALUES (70,"PRI",30);
+---------------------------------------------------------------
+---------------------------MIEMBROS----------------------------
+---------------------------------------------------------------
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (1, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (2, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (3, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (5, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (6, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (7, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (8, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (9, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (10, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (11, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (12, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (13, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (14, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (15, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (16, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (17, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (18, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (19, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (20, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (21, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (22, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (23, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (24, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (25, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (26, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (27, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (28, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (29, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (30, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (31, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (32, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (33, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (33, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (34, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (35, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (36, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (37, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (38, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (39, "Vocal", "OUH71APJ8UG");
+
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (40, "Presidente", "OUH71APJ8UG");
