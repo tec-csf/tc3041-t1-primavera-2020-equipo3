@@ -601,56 +601,56 @@ INSERT INTO `federales` (`Eleccion_idEleccion`,`Partido_siglas`,`noVotos`) VALUE
 ---------------------------------------------------------------
 ---------------------------MIEMBROS----------------------------
 ---------------------------------------------------------------
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (1, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (2, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (3, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (1, "Presidente", "RXL51WTU0FY");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (2, "Vocal", "WJA79ZOI7IF");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (3, "Vocal", "JMZ72QVD0AF");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (5, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (6, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (7, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (5, "Presidente", "ZSZ82NIN0ZX");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (6, "Vocal", "IYG47VBD8MJ");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (7, "Vocal", "QMR95GDS0LZ");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (8, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (9, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (10, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (8, "Presidente", "ERA19WQU9BI");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (9, "Vocal", "TVY52JMF6SQ");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (10, "Vocal", "ELO79COW1SL");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (11, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (12, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (13, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (11, "Presidente", "UQP38COY3AX");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (12, "Vocal", "DQG78RSD9HH");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (13, "Vocal", "XQE26GZZ2HK");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (14, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (15, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (16, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (14, "Presidente", "UPN17OEF9LI");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (15, "Vocal", "ZMS85QEK7AI");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (16, "Vocal", "PVX64RHB7GO");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (17, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (18, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (19, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (17, "Presidente", "CXV77WYD6XS");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (18, "Vocal", "BSR13NPB0OR");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (19, "Vocal", "JSX28JCN5IX");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (20, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (21, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (22, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (20, "Presidente", "ULJ50YFB3RI");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (21, "Vocal", "XKY29USH5MI");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (22, "Vocal", "EJB68OII4XI");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (23, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (24, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (25, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (23, "Presidente", "PEQ91ZBP4UZ");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (24, "Vocal", "IVS29SQV8SG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (25, "Vocal", "BSB96PQX5DQ");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (26, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (27, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (28, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (26, "Presidente", "PNF71WNC4IZ");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (27, "Vocal", "GTV78GXZ3WP");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (28, "Vocal", "YEX81DAR8BU");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (29, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (30, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (31, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (29, "Presidente", "FKC89HJU9JK");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (30, "Vocal", "UJP58EPT2XP");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (31, "Vocal", "LCB19HGF3LS");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (32, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (33, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (33, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (32, "Presidente", "ZTZ90HET1ED");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (33, "Vocal", "HCL42REI2GH");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (33, "Vocal", "IAQ39TIN1LA");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (34, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (35, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (36, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (34, "Presidente", "CCF48SCF8RB");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (35, "Vocal", "AWU23SVA8MQ");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (36, "Vocal", "IOJ02PTM9LK");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (37, "Presidente", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (38, "Vocal", "OUH71APJ8UG");
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (39, "Vocal", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (37, "Presidente", "MYZ40VDW0FD");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (38, "Vocal", "KGP19SKE9MA");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (39, "Vocal", "CKN25SNY7UG");
 
-INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (40, "Presidente", "OUH71APJ8UG");
+INSERT INTO `miembro`(`idMiembro`, `tipoMiembro`, `Votante_idVotante`) VALUES (40, "Presidente", "WNO35LAF4JL");
