@@ -10,19 +10,16 @@
     <header>
         <div class="topnav">
             <a href = "Partidos.php">Partidos</a>
-            <a href = "Elecciones.php">Elecciones</a>
+            <a class ="active"href = "Elecciones.php">Elecciones</a>
             <a href = "Votantes.php">Votantes</a>
-            <a class = "active" href="home.php">Home</a>
+            <a href="home.php">Home</a>
         </div>
     </header>
 
     <body>
     
-    <h1>HELLO THERE!</h1>
-
-    <h3>Seleccione una de las opciones del menú de arribax</h3>
-
     <?php
+
 
         error_reporting(E_ALL);
         ini_set('display_errors', 1);
@@ -35,6 +32,8 @@
         else
             die("Conexión fallida.");
 
+        echo '<p>Connection OK '. $enlace->host_info.'</p>';
+        echo '<p>Server '.$enlace->server_info.'</p>';
         $enlace->close();
 
     ?>
