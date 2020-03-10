@@ -93,7 +93,7 @@ Se utilizaron los _Queries_ de MySQL Workbench para poder visualizar, editar dat
 git clone https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3
 ```
 
-2. Una vez que se haya descargado el contenido del repositorio, se abre la terminal de MySQL, en el caso que use Windows, se le hace _Copy + Paste_ al contenido de este y se inserta en la terminal.
+2. Una vez que se haya descargado el contenido del repositorio, se abre la terminal de MySQL, en el caso que use Windows, se le hace _Copy + Paste_ al contenido del documento llamado __[Elecciones](backend/Elecciones.sql)__ y se inserta en la terminal.
 
 * Antes de seguir:
   * Es importante tomar en cuenta que se tiene que cambiar a la base de datos usando el comando:
@@ -101,7 +101,7 @@ git clone https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3
   USE elecciones;
   ```
 
-3. Para llenar la base de datos, se puede hacer un _Copy + Paste_ al contenido del documento llamado **DatosParaLlenar.sql**, posteriormente se inserta a la base de datos.
+3. Para llenar la base de datos, se puede hacer un _Copy + Paste_ al contenido del documento llamado **[DatosParaLlenar.sql](backend/DatosParaLlenar.sql)**, posteriormente se inserta a la base de datos.
 
 ### Para correr la página web
 
