@@ -52,13 +52,13 @@ Como parte de la entrega de la tarea, se debe incluir la siguiente información:
 A continuación aparecen descritos los diferentes elementos que forman parte de la solución de la tarea.
 
 ### 2.1 Modelo de la *base de datos* 
-![Diagrama de Entidad Relacion Extendida](Tarea1.ModeloERE.png)
+![Diagrama de Entidad Relacion Extendida](https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3/blob/master/Images/Tarea1.ModeloERE.png)
 Decidimos hacer nuestro diagrama con el colegio al inicio de la jerarquia por que este va a definir como se organizan todas las otras relaciones de esta forma nos aseguramos que cada colegio tenga organizados las elecciones.
 Elecciones solo guarda un id y el periodo mientras que los tipos de eleccion "municipal" o "federal" tienen su propia tabla.
 Cada partido guarda la siglas (la llave primaria), su nombre el periodo (fecha de inicio y fin) y un apoderado como relacion ya que estos no estan dentro de la lista de votantes como lo estan el presidente y los que pertenencen a la lista nominal que tiene la restriccion para que solo sean 4. En cuento a los votantes se les tiene un id que es INE/pasaporte (que es la llave primaria), el nombre, fecha de nacimiento, la direccion y el periodo de la eleccion en la que vota. Cada votanten tiene un relacion con la tabla de mesa ya que cada votante tiene una mesa asignada. De igual manera, cada votante puede ser miembro de una mesa siempre y cuando se mexicano, como miembro puede ser presidente, vocal o suplente. Solo puede haber un presidente por mesa y no se pueden repetir personas aunque cambie el colegio. 
 
 ### 2.2 Arquitectura de la solución
-![Diagrama en MySQL](DiagramaMySQL.jpeg)
+![Diagrama en MySQL](https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3/blob/master/Images/DiagramaMySQL.jpeg)
 
 ### 2.3 Frontend
 Usamos PHP y se vinculo con comandos de HTML. Con comandos CRUD para modificar la base de datos.
@@ -93,7 +93,7 @@ Se utilizaron los _Queries_ de MySQL Workbench para poder visualizar, editar dat
 git clone https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3
 ```
 
-2. Una vez que se haya descargado el contenido del repositorio, se abre la terminal de MySQL, en el caso que use Windows, se le hace _Copy + Paste_ al contenido de este y se inserta en la terminal.
+2. Una vez que se haya descargado el contenido del repositorio, se abre la terminal de MySQL, en el caso que use Windows, se le hace _Copy + Paste_ al contenido del documento llamado __[Elecciones.sql](backend/Elecciones.sql)__ y se inserta en la terminal.
 
 * Antes de seguir:
   * Es importante tomar en cuenta que se tiene que cambiar a la base de datos usando el comando:
@@ -101,7 +101,7 @@ git clone https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3
   USE elecciones;
   ```
 
-3. Para llenar la base de datos, se puede hacer un _Copy + Paste_ al contenido del documento llamado **DatosParaLlenar.sql**, posteriormente se inserta a la base de datos.
+3. Para llenar la base de datos, se puede hacer un _Copy + Paste_ al contenido del documento llamado **[DatosParaLlenar.sql](backend/DatosParaLlenar.sql)**, posteriormente se inserta a la base de datos.
 
 ### Para correr la página web
 
