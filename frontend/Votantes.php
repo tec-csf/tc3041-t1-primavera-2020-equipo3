@@ -8,7 +8,14 @@
     </head>
 
     <header>
-        <div class="topnav">            
+        <div class="topnav"> 
+            <a href = "Suplente.php">Suplentes</a>
+            <a href = "Miembros.php">Miembros</a>
+            <a href = "Mesas.php">Mesas</a>
+            <a href = "ListaNominal.php">Lista Nominal</a>
+            <a href = "TiposdeEleccion.php">Tipos de elecciones</a>
+            <a href = "Colegio.php">Colegios</a>
+            <a href = "Apoderado.php">Apoderados</a>           
             <a href = "Partidos.php">Partidos</a>
             <a href = "Elecciones.php">Elecciones</a>
             <a class="active" href = "Votantes.php">Votantes</a>
@@ -19,7 +26,7 @@
     <body>
     
     <?php
-
+        /*
         error_reporting(E_ALL);
         ini_set('display_errors', 1);
 
@@ -35,10 +42,24 @@
         $sql = "SELECT idVotante, nombre, direccion, fechaNacimiento FROM votante";
         $result = $enlace->query($sql);
 
+        echo "<table border='1'>
+        <tr>
+        <th>idVotante</th>
+        <th>Nombre</th>
+        <th>Dirección</th>
+        <th>Fecha de nacimiento</th>
+        </tr>";
+
         if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-            echo "id: " . $row["idVotante"]. " - Nombre: " . $row["nombre"]. " -Dirección: " . $row["direccion"]. " - Fecha nacimiento: ". $row["fechaNacimiento"]. "<br>";
+            
+            echo "<tr>";
+            echo "<td>" . $row['idVotante'] . "</td>";
+            echo "<td>" . $row['nombre'] . "</td>";
+            echo "<td>" . $row['direccion'] . "</td>";
+            echo "<td>" . $row['fechaNacimiento'] . "</td>";
+            echo "</tr>";
         }
         } else {
             echo "0 results";
@@ -49,8 +70,16 @@
         echo '<p>Connection OK '. $enlace->host_info.'</p>';
         echo '<p>Server '.$enlace->server_info.'</p>';
         $enlace->close();
-
+        */
     ?>
+
+        <button onclick="window.location.href = 'VerVotantes.php';">Ver votantes</button>
+
+        <button onclick="window.location.href = 'AddVotantes.php';">Añadir votantes</button>
+
+        <button onclick="window.location.href = 'RemVotantes.php';">Quitar votantes</button>
+
+        <button onclick="window.location.href = 'UpVotantes.php';">Actualizar votantes</button>
 
 
     </body>

@@ -8,7 +8,14 @@
     </head>
 
     <header>
-        <div class="topnav">            
+        <div class="topnav"> 
+            <a href = "Suplente.php">Suplentes</a>
+            <a href = "Miembros.php">Miembros</a>
+            <a href = "Mesas.php">Mesas</a>
+            <a href = "ListaNominal.php">Lista Nominal</a>
+            <a href = "TiposdeEleccion.php">Tipos de elecciones</a>
+            <a href = "Colegio.php">Colegios</a>
+            <a href = "Apoderado.php">Apoderados</a>           
             <a href = "Partidos.php">Partidos</a>
             <a href = "Elecciones.php">Elecciones</a>
             <a class="active" href = "Votantes.php">Votantes</a>
@@ -18,7 +25,7 @@
 
     <body>
 
-    <button onclick="window.location.href = 'Votantes.php';">Regresar a votantes</button>
+    <button onclick="window.location.href = 'Partidos.php';">Regresar a partidos</button>
 
 
     <?php
@@ -37,15 +44,13 @@
             die("Conexión fallida.");
 
         
-        $sql = "SELECT idVotante, nombre, direccion, fechaNacimiento FROM votante";
+        $sql = "SELECT siglas, nombre, presidente_idVotante FROM partido";
         $result = $enlace->query($sql);
 
         echo "<table border='1'>
         <tr>
-        <th>idVotante</th>
+        <th>Siglas</th>
         <th>Nombre</th>
-        <th>Dirección</th>
-        <th>Fecha de nacimiento</th>
         </tr>";
 
         if ($result->num_rows > 0) {
@@ -53,10 +58,8 @@
         while($row = $result->fetch_assoc()) {
             
             echo "<tr>";
-            echo "<td>" . $row['idVotante'] . "</td>";
+            echo "<td>" . $row['siglas'] . "</td>";
             echo "<td>" . $row['nombre'] . "</td>";
-            echo "<td>" . $row['direccion'] . "</td>";
-            echo "<td>" . $row['fechaNacimiento'] . "</td>";
             echo "</tr>";
         }
         } else {

@@ -4,7 +4,7 @@
 
     <head>
     <meta charset="UTF-8">
-    <title>Partidos</title>
+    <title>Home</title>
     </head>
 
     <header>
@@ -12,11 +12,11 @@
             <a href = "Suplente.php">Suplentes</a>
             <a href = "Miembros.php">Miembros</a>
             <a href = "Mesas.php">Mesas</a>
-            <a href = "ListaNominal.php">Lista Nominal</a>
+            <a class = "active" href = "ListaNominal.php">Lista Nominal</a>
             <a href = "TiposdeEleccion.php">Tipos de elecciones</a>
             <a href = "Colegio.php">Colegios</a>
-            <a href = "Apoderado.php">Apoderados</a>            
-            <a class = "active" href = "Partidos.php">Partidos</a>
+            <a href = "Apoderado.php">Apoderados</a>
+            <a href = "Partidos.php">Partidos</a>
             <a href = "Elecciones.php">Elecciones</a>
             <a href = "Votantes.php">Votantes</a>
             <a href="home.php">Home</a>
@@ -25,15 +25,13 @@
 
     <body>
     
-        <button onclick="window.location.href = 'VerPartidos.php';">Ver partidos</button>
+        <button onclick="window.location.href = 'VerListaNominal.php';">Ver lista nominal</button>
 
-        <button onclick="window.location.href = 'AddPartidos.php';">Añadir partidos</button>
+        <button onclick="window.location.href = 'AddListaNominal.php';">Añadir a la lista nominal</button>
 
-        <button onclick="window.location.href = 'RemPartidos.php';">Quitar partidos</button>
+        <button onclick="window.location.href = 'RemListaNominal.php';">Quitar lista nominal</button>
 
-        <button onclick="window.location.href = 'UpPartidos.php';">Actualizar partidos</button>
-
-
+        <button onclick="window.location.href = 'UpListaNominal.php';">Actualizar nominal</button>
 
     </body>
 

@@ -9,6 +9,13 @@
 
     <header>
         <div class="topnav">
+            <a href = "Suplente.php">Suplentes</a>
+            <a href = "Miembros.php">Miembros</a>
+            <a href = "Mesas.php">Mesas</a>
+            <a href = "ListaNominal.php">Lista Nominal</a>
+            <a href = "TiposdeEleccion.php">Tipos de elecciones</a>
+            <a href = "Colegio.php">Colegios</a>
+            <a href = "Apoderado.php">Apoderados</a>
             <a href = "Partidos.php">Partidos</a>
             <a href = "Elecciones.php">Elecciones</a>
             <a href = "Votantes.php">Votantes</a>
@@ -20,7 +27,7 @@
     
     <h1>HELLO THERE!</h1>
 
-    <h3>Seleccione una de las opciones del menú de arribax</h3>
+    <h3>Seleccione una de las opciones del menú de arriba.</h3>
 
     <?php
 
