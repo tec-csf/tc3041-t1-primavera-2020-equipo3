@@ -58,8 +58,7 @@ Elecciones solo guarda un id y el periodo mientras que los tipos de eleccion "mu
 Cada partido guarda la siglas (la llave primaria), su nombre el periodo (fecha de inicio y fin) y un apoderado como relacion ya que estos no estan dentro de la lista de votantes como lo estan el presidente y los que pertenencen a la lista nominal que tiene la restriccion para que solo sean 4. En cuento a los votantes se les tiene un id que es INE/pasaporte (que es la llave primaria), el nombre, fecha de nacimiento, la direccion y el periodo de la eleccion en la que vota. Cada votanten tiene un relacion con la tabla de mesa ya que cada votante tiene una mesa asignada. De igual manera, cada votante puede ser miembro de una mesa siempre y cuando se mexicano, como miembro puede ser presidente, vocal o suplente. Solo puede haber un presidente por mesa y no se pueden repetir personas aunque cambie el colegio. 
 
 ### 2.2 Arquitectura de la solución
-
-*[Incluya aquí un diagrama donde se aprecie la arquitectura de la solución propuesta, así como la interacción entre los diferentes componentes de la misma.]*
+![Diagrama en MySQL](DiagramaMySQL.jpeg)
 
 ### 2.3 Frontend
 Usamos PHP y se vinculo con comandos de HTML. Con comandos CRUD para modificar la base de datos.
