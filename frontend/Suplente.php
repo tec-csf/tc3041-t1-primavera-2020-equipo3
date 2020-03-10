@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="font-family:Arial">
+    <link rel="stylesheet" href="style.css">
+
+    <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    </head>
+
+    <header>
+        <div class="topnav">
+            <a class = "active" href = "Suplente.php">Suplentes</a>
+            <a href = "Miembros.php">Miembros</a>
+            <a href = "Mesas.php">Mesas</a>
+            <a href = "ListaNominal.php">Lista Nominal</a>
+            <a href = "TiposdeEleccion.php">Tipos de elecciones</a>
+            <a href = "Colegio.php">Colegios</a>
+            <a href = "Apoderado.php">Apoderados</a>
+            <a href = "Partidos.php">Partidos</a>
+            <a href = "Elecciones.php">Elecciones</a>
+            <a href = "Votantes.php">Votantes</a>
+            <a href="home.php">Home</a>
+        </div>
+    </header>
+
+    <body>
+    
+        <button onclick="window.location.href = 'VerSuplentes.php';">Ver suplente</button>
+
+        <button onclick="window.location.href = 'AddSuplentes.php';">Añadir a suplentes</button>
+
+        <button onclick="window.location.href = 'RemSuplentes.php';">Quitar suplentes</button>
+
+        <button onclick="window.location.href = 'UpSuplentes.php';">Actualizar suplentes</button>
+
+    </body>
+
+</html> 
