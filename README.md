@@ -62,24 +62,27 @@ Cada partido guarda la siglas (la llave primaria), su nombre el periodo (fecha d
 
 ### 2.3 Frontend
 Usamos PHP y se vinculo con comandos de HTML. Con comandos CRUD para modificar la base de datos.
-Para mas informacion: https://www.ecodeup.com/crud-en-php-para-principiantes/
+Para mas información: 
+
+>https://www.ecodeup.com/crud-en-php-para-principiantes/
 
 #### 2.3.1 Lenguaje de programación
  PHP y comandos de HTML para realizar la operaciones CRUD
 #### 2.3.2 Framework
-  No se implemento en ningun fremawork 
+  No se implementó en ningun framework. 
 #### 2.3.3 Librerías de funciones o dependencias
-Los datos fueron optenidos en https://www.generatedata.com/
+Los datos fueron obtenidos de:
+>https://www.generatedata.com/
 
 ### 2.4 Backend
-Utilizamos MySql para crear la base de datos 
+Utilizamos MySQL para crear la base de datos.
 
 #### 2.4.1 Lenguaje de programación
-Se uso sql
+Se uso SQL y PHP (con implementación de HTML).
 #### 2.4.2 Framework
-MySql Workbench y como se trabajo en Windows se uso los servicios de WampServer
+MySQL Workbench y, como se trabajo en Windows, se usaron los servicios de WAMPServer.
 #### 2.4.3 Librerías de funciones o dependencias
-PHP myAdmin para comprobar los datos 
+Se utilizaron los _Queries_ de MySQL Workbench para poder visualizar, editar datos.
 
 ## 2.5 Pasos a seguir para utilizar la aplicación
 
