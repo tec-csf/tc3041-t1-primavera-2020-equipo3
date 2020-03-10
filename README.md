@@ -4,7 +4,7 @@
 
 ##### Integrantes:
 1. *Camila Rovirosa Ochoa* - *A01024192* - *CSF*
-2. *Luis Daniel Roa Gonzales* - *A01021960* - *CSF*
+2. *Luis Daniel Roa Gonzalez* - *A01021960* - *CSF*
 3. *Albert Hassey Padierna* - *A01024639* - *CSF*
 
 ---
@@ -83,9 +83,70 @@ PHP myAdmin para comprobar los datos
 
 ## 2.5 Pasos a seguir para utilizar la aplicación
 
-*[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio hasta el despliegue de la solución en una plataforma en la nube.]*
+
+### Instalación de la base de datos 
+1. Para poder correr la aplicación, es necesario que el usuario haga un clone del repositorio usando el comando a continuación.
+```
+git clone https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3
+```
+
+2. Una vez que se haya descargado el contenido del repositorio, se abre la terminal de MySQL, en el caso que use Windows, se le hace _Copy + Paste_ al contenido de este y se inserta en la terminal.
+
+* Antes de seguir:
+  * Es importante tomar en cuenta que se tiene que cambiar a la base de datos usando el comando:
+  ```
+  USE elecciones;
+  ```
+
+3. Para llenar la base de datos, se puede hacer un _Copy + Paste_ al contenido del documento llamado **DatosParaLlenar.sql**, posteriormente se inserta a la base de datos.
+
+### Para correr la página web
+
+* Es importante recalcar desde este primer punto, la página web solamente fue probada de manera **local**, por lo tanto, se espera que el usuario pueda correrla localmente.
+
+1. Para poder usar la página web hay dos maneras, que cambian dependiendo del sistema operativo que este usando el usuario.
+
+#### Para Windows
+
+2. Se debe de tener instalado [WAMP](http://www.wampserver.com/en/) en el sistema del usuario y debe de estar corriendo.
+
+3. Posteriormente, se debe de mover el contenido de la carpeta de _frontend_ al que WAMP va a haber creado. Este se encuentra en el siguiente directorio:
+
+```
+C:\wamp64\www
+```
+
+4. En el buscador que desee el usuario, se debe acceder a la siguiente liga:
+
+```
+localhost/Home.php
+```
+
+5. Ya se tiene acceso a la página web.
+
+#### Para MacOS
+
+2. Automaticamente se tiene una carpeta que se llama __Sites__. Una vez que se tenga acceso, el usuario ingresa el contenido de la carpeta _frontend_ a este mismo.
+
+3. Para asegurarse que haya conexión, se debe de encender Apache Server con el siguiente comando:
+
+```
+sudo apachectl start
+```
+
+4. Una vez que este funcionando, se accede a la siguiente liga:
+
+```
+localhost/Home.php
+```
+
+5. Ya se tiene acceso a la página web.
+
+* __NOTAS:__
+  * __Para poder correr la aplicación, se debe de contar con una terminal que pueda correr los comandos de Git.__ 
+  * __El usuario debe tener instalado MySQL en su terminal para poder crear la base de datos e insertar sus datos.__
+
 
 ## 3. Referencias
     https://www.generatedata.com/
     https://www.ecodeup.com/crud-en-php-para-principiantes/
-*[Incluya aquí las referencias a sitios de interés, datasets y cualquier otra información que haya utilizado para realizar la tarea y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
