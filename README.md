@@ -63,8 +63,13 @@ Cada partido guarda la siglas (la llave primaria), su nombre el periodo (fecha d
 ### 2.3 Frontend
 Usamos PHP y se vinculo con comandos de HTML. Con comandos CRUD para modificar la base de datos.
 Para mas información: 
-
 >https://www.ecodeup.com/crud-en-php-para-principiantes/
+
+![Home](https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3/blob/master/Images/home.jpeg)
+![Table](https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3/blob/master/Images/tabla.jpeg)
+![Update](https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3/blob/master/Images/update.jpeg)
+![Delete](https://github.com/tec-csf/tc3041-t1-primavera-2020-equipo3/blob/master/Images/delete.jpeg)
+
 
 #### 2.3.1 Lenguaje de programación
  PHP y comandos de HTML para realizar la operaciones CRUD.
