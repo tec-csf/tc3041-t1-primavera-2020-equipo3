@@ -67,7 +67,7 @@ Para mas información:
 >https://www.ecodeup.com/crud-en-php-para-principiantes/
 
 #### 2.3.1 Lenguaje de programación
- PHP y comandos de HTML para realizar la operaciones CRUD
+ PHP y comandos de HTML para realizar la operaciones CRUD.
 #### 2.3.2 Framework
   No se implementó en ningun framework. 
 #### 2.3.3 Librerías de funciones o dependencias
