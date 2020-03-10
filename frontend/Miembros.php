@@ -9,8 +9,15 @@
 
     <header>
         <div class="topnav">
+            <a href = "Suplente.php">Suplentes</a>
+            <a class = "active" href = "Miembros.php">Miembros</a>
+            <a href = "Mesas.php">Mesas</a>
+            <a href = "ListaNominal.php">Lista Nominal</a>
+            <a href = "TiposdeEleccion.php">Tipos de elecciones</a>
+            <a href = "Colegio.php">Colegios</a>
+            <a href = "Apoderado.php">Apoderados</a>
             <a href = "Partidos.php">Partidos</a>
-            <a class ="active"href = "Elecciones.php">Elecciones</a>
+            <a href = "Elecciones.php">Elecciones</a>
             <a href = "Votantes.php">Votantes</a>
             <a href="home.php">Home</a>
         </div>
@@ -18,26 +25,13 @@
 
     <body>
     
-    <?php
+        <button onclick="window.location.href = 'VerMiembros.php';">Ver miembros</button>
 
+        <button onclick="window.location.href = 'AddMiembros.php';">Añadir a miembros</button>
 
-        error_reporting(E_ALL);
-        ini_set('display_errors', 1);
+        <button onclick="window.location.href = 'RemMiembros.php';">Quitar miembros</button>
 
-        $enlace = mysqli_connect("127.0.0.1", "adminphp", "Oreo.1989", "elecciones");
-
-        if ($enlace)
-            echo "Conexión exitosa. <br>";
-
-        else
-            die("Conexión fallida.");
-
-        echo '<p>Connection OK '. $enlace->host_info.'</p>';
-        echo '<p>Server '.$enlace->server_info.'</p>';
-        $enlace->close();
-
-    ?>
-
+        <button onclick="window.location.href = 'UpMiembros.php';">Actualizar miembros</button>
 
     </body>
 
